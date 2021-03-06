@@ -1,0 +1,19 @@
+<odoo>
+
+        <record model="openacademy.course" id="course0">
+            <field name="name">Maths</field>
+            <field name="description">Les mathématiques (ou la mathématique) sont un ensemble de connaissances abstraites résultant de raisonnements logiques appliqués à des objets divers ...
+            </field>
+        </record>
+        <record model="openacademy.course" id="course1">
+            <field name="name">Physique quantique</field>
+            <field name="description">La physique quantique est l'appellation générale d'un ensemble de théories physiques nées au XX e siècle qui décrivent le comportement des atomes et des particules et permettent d'élucider certaines propriétés du rayonnement électromagnétique.
+            </field>
+        </record>
+        <record model="openacademy.course" id="course2">
+            <field name="name">Informatique</field>
+            <field name="description">L'informatique est un domaine d'activité scientifique, technique, et industriel concernant le traitement automatique de l'information numérique par l'exécution de ...</field>
+        </record>
+
+
+</odoo>
