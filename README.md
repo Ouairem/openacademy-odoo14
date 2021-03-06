@@ -1,1 +1,1 @@
-# openacademy-odoo14
+# Module OpenAcademy:
