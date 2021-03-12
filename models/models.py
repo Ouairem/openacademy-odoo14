@@ -150,8 +150,3 @@ class Session(models.Model):
 
 
 
-
-
-
-
-

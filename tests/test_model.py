@@ -7,7 +7,7 @@ class ClassTestCourses(TransactionCase):
 
     def test_creation_information(self):
         course = self.env['openacademy.course'].create({
-            'name': '1',
+            'name': '',
             'description': '2',
         })
         self.assertEqual(course.name, 'Course 1')

@@ -2,7 +2,7 @@
 <odoo>
 
         <record model="ir.actions.act_window" id="act_session_graph">
-            <field name="name">Attendees by course</field>
+            <field name="name">AtteAndees by course</field>
             <field name="res_model">openacademy.session</field>
             <field name="view_mode">graph</field>
             <field name="view_id"

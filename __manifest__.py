@@ -23,6 +23,8 @@
     # any module necessary for this one to work correctly
     'depends': ['base', 'board'],
 
+    'qweb': ['static/src/xml/test.xml'],
+
     # always loaded
     'data': [
         'security/security.xml',
