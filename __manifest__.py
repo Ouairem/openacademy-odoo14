@@ -34,6 +34,8 @@
         'views/session_board.xml',
         'reports.xml',
         'assets.xml',
+        'views/openacademy_portal_templates.xml',
+        'views/analysis.xml',
     ],
     # only loaded in demonstration mode
     'demo': [

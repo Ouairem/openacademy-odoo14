@@ -1,3 +1,4 @@
+
 odoo.define('openacademy.test', function(require)
 {
     var form_widget = require('web.FormRenderer');
