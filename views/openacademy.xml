@@ -30,23 +30,6 @@
 
 
 
-        <menuitem id="menu_client_action"
-          name="Scan QR CODE"
-          action="action_menu"
-          parent="main_openacademy_menu"/>
-
-
-        <record id="action_menu" model="ir.actions.act_window">
-            <field name="name">session.form</field>
-            <field name="res_model">openacademy.session</field>
-            <field name="arch" type="xml">
-            <form>
-                <p>allaadl</p>
-            </form>
-            </field>
-        </record>
-
-
         <!-- top level menu: no parent -->
         <menuitem id="main_openacademy_menu" name="Open Academy"/>
         <!-- A first level in the left side menu is needed
@@ -71,7 +54,10 @@
             <field name="arch" type="xml">
                 <form string="Session Form">
                     <!-- TEST -->
-                    <button string="Click" custom="darkroom-save"/>
+                    <center>
+                        <button class="btn btn-success" string="SCAN QR CODE" width="250" height="250" custom="darkroom-save"/>
+                    </center>
+
                     <sheet>
                         <group>
                             <group string="General">
